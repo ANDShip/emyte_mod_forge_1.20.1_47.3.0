@@ -1,6 +1,7 @@
 package net.andship.emyte_mod.item;
 
 import net.andship.emyte_mod.Emyte_Mod;
+import net.andship.emyte_mod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.REDSTONE_FLOWER.get());
                         output.accept(ModItems.REDSTONE_FLOWER_SEEDS.get());
+
+                        output.accept(ModBlocks.REDSTONE_FLOWER_SEEDS_BLOCK.get());
                     })
                     .build());
 

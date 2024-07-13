@@ -1,6 +1,7 @@
 package net.andship.emyte_mod;
 
 import com.mojang.logging.LogUtils;
+import net.andship.emyte_mod.block.ModBlocks;
 import net.andship.emyte_mod.item.ModCreativeModTabs;
 import net.andship.emyte_mod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class Emyte_Mod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
