@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "emyte_mod:redstone_flower_seeds_block"
+    }
+
+  ],
+  "result": {
+    "item": "emyte_mod:redstone_flower_seeds",
+    "count": 9
+  }
+}

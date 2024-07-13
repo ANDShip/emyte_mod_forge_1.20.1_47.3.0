@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "emyte_mod:redstone_flower_seeds"
+    }
+  },
+  "result": {
+    "item": "emyte_mod:redstone_flower_seeds_block"
+  }
+}
