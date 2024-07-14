@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "contidions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "emyte_mod:redstone_flower_seeds_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "emyte_mod:blocks/redstone_flower_seeds_block"
+}
