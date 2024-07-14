@@ -20,7 +20,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.REDSTONE_FLOWER.get());
                         output.accept(ModItems.REDSTONE_FLOWER_SEEDS.get());
-
+                        output.accept(ModItems.BLOCK_DETECTOR.get());
                         output.accept(ModBlocks.REDSTONE_FLOWER_SEEDS_BLOCK.get());
                     })
                     .build());
