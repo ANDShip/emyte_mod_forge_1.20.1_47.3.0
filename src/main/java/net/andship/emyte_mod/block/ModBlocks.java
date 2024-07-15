@@ -1,6 +1,7 @@
 package net.andship.emyte_mod.block;
 
 import net.andship.emyte_mod.Emyte_Mod;
+import net.andship.emyte_mod.block.custom.SoundBlock;
 import net.andship.emyte_mod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> REDSTONE_FLOWER_SEEDS_BLOCK = registerBlock("redstone_flower_seeds_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK)));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
 
 
 

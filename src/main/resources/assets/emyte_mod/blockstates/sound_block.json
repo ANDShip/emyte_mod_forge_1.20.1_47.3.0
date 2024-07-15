@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "emyte_mod:block/sound_block"
+    }
+  }
+}
