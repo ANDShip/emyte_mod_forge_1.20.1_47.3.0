@@ -1,6 +1,7 @@
 package net.andship.emyte_mod.item;
 
 import net.andship.emyte_mod.Emyte_Mod;
+import net.andship.emyte_mod.block.custom.FuelItem;
 import net.andship.emyte_mod.item.custom.BlockDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +20,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> BLOCK_DETECTOR = ITEMS.register("block_detector",
             () -> new BlockDetectorItem(new Item.Properties().durability(100)));
+
+    public static final RegistryObject<Item> REDSTONEBERRY = ITEMS.register("redstoneberry",
+            () -> new Item(new Item.Properties().food(ModFoods.REDSTONEBERRY)));
+
+    public static final RegistryObject<Item> REDSTONE_FUEL = ITEMS.register("redstone_fuel",
+            () -> new FuelItem(new Item.Properties(), 400));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

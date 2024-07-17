@@ -19,6 +19,8 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.emyte_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.REDSTONE_FLOWER.get());
+                        output.accept(ModItems.REDSTONE_FUEL.get());
+                        output.accept(ModItems.REDSTONEBERRY.get());
                         output.accept(ModItems.REDSTONE_FLOWER_SEEDS.get());
                         output.accept(ModItems.BLOCK_DETECTOR.get());
                         output.accept(ModBlocks.REDSTONE_FLOWER_SEEDS_BLOCK.get());

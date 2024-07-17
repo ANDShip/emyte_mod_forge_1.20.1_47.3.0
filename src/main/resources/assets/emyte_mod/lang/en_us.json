@@ -1,10 +1,15 @@
 {
   "item.emyte_mod.redstone_flower": "Redstone Flower",
+  "item.emyte_mod.redstoneberry": "Redstone Berry",
   "item.emyte_mod.redstone_flower_seeds": "Redstone Flower Seeds",
   "item.emyte_mod.block_detector": "Block Detector",
+  "item.emyte_mod.redstone_fuel": "Redstone Fuel",
 
   "block.emyte_mod.redstone_flower_seeds_block": "Block of Redstone Flower Seeds",
   "block.emyte_mod.sound_block": "Sound Block",
+
+
+  "tooltip.emyte_mod.block_detector.tooltip": "Breaks for now moss blocks",
 
   "creativetab.emyte_tab": "Emyte Tab"
 }

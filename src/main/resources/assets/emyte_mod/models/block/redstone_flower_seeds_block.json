@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "emyte_mod:block/redstone_flower_seeds_block"
-  }
-}
